@@ -2,7 +2,7 @@ import sys
 import joblib
 
 # Load the model
-model = joblib.load("/home/zeyneb/Documents/mini_project/Mini_project/model.joblib")
+model = joblib.load("C:/Users/hp/Desktop/MINI_PROJECT/Mini_project/model.joblib")
 
 # Get input from command line
 if len(sys.argv) < 2:
